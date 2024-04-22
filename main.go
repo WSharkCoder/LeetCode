@@ -1,8 +1,7 @@
 package main
 
-import "fmt"
+import "LeetCode/cn/wsharkcoder/leetcode"
 
 func main() {
-	m := make(map[int]int, 1)
-	fmt.Println(m[1])
+	leetcode.FindMedianSortedArrays([]int{2}, []int{})
 }
